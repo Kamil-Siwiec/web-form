@@ -11,10 +11,13 @@
 
   <body>
     <main>
+      <div class="bg" aria-hidden="true">
+        <div class="bg__dot"></div>
+        <div class="bg__dot"></div>
+      </div>
+
       <h1>Forms playground</h1>
       <form method="POST" action="https://dev.cotenfrontend.pl" class="form">
-
-
         <p>
           <label for="firstName">Your name:</label>
           <input
@@ -156,8 +159,13 @@
 
           <p>
             <label>
-               Postal code:
-               <input placeholder="Please enter your postal code" id="postalCode" name="postalCode" pattern="[0-9]{2}-[0-9]{3}">
+              Postal code:
+              <input
+                placeholder="Please enter your postal code"
+                id="postalCode"
+                name="postalCode"
+                pattern="[0-9]{2}-[0-9]{3}"
+              />
             </label>
           </p>
         </fieldset>
@@ -200,7 +208,7 @@
         </p>
 
         <p>
-          <input type="submit" value="Send"/>
+          <input type="submit" value="Send" />
         </p>
       </form>
     </main>
