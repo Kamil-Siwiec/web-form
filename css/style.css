@@ -97,3 +97,16 @@ body {
   text-align: center;
   width: 100%;
 }
+
+.form__area {
+  width: 100%;
+  min-height: 200px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+.form__container {
+  margin-bottom: 32px;
+  position: relative;
+}
