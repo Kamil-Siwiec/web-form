@@ -242,3 +242,22 @@ h1 {
 }
 
 /* ANIMATION DOTS */
+
+@keyframes move1 {
+  0% {
+    transform: translate(-60vw, 0);
+  }
+
+  100% {
+    transform: translate(160vw, 30vw);
+  }
+}
+
+@keyframes move2 {
+  0% {
+    transform: translate(110vw, 0);
+  }
+  100% {
+    transform: translate(-50vw, -90vw);
+  }
+}
