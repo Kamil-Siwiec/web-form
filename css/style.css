@@ -147,3 +147,42 @@ body {
   transform: translateX(-50%);
   width: 24px;
 }
+
+.form__item {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.4)
+  );
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-size: 24px;
+  outline: transparent;
+  overflow: hidden;
+  position: relative;
+  transition: background 0.3s ease-out, box-shadow 0.3s ease-out,
+    color 0.3s ease-out, outline 0.3s ease-out;
+  padding: 12px 24px;
+  width: 100%;
+}
+
+.form__item:hover:not(:focus) {
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+.form__spacer {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+  display: block;
+  height: 2px;
+  margin: 32px auto;
+  width: 80%;
+}
+
+.form label {
+  display: block;
+}
+
+/* HEADING */
