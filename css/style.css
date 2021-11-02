@@ -68,12 +68,48 @@ body {
 
 .bg__dot:nth-child(2) {
   animation: move2 20s infinite linear both;
+  top: 100vh;
   height: 20vh;
-  top: 95%;
   width: 20vh;
 }
 
 /* BUTTON */
+
+.btn {
+  background: linear-gradient(to bottom, #092756 0%, #092756 100%);
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.18);
+  color: #fff;
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 10.5px auto;
+  max-width: 280px;
+  padding: 5px 0;
+  position: relative;
+  outline: transparent;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.btn-second {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 25px;
+  text-decoration: none;
+  transition: all 0.1s ease;
+}
+
+.btn-second:active {
+  transform: none;
+  box-shadow: 0 0 0 rgba(0, 0, 0);
+  transform: translate(2px, 2px);
+}
 
 /* FIELDSET */
 
