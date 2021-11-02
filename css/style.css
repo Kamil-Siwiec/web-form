@@ -77,6 +77,11 @@ body {
 
 /* FIELDSET */
 
+.fieldset__item {
+  font-size: 28px;
+  margin-bottom: 32px;
+}
+
 /* FORM */
 
 .form {
