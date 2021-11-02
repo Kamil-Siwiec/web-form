@@ -34,5 +34,42 @@ body {
   color: #fff;
   font-family: Helvetica, sans-serif;
   font-size: 24px;
-  overflow-x: hidden;
+  overflow: hidden;
+}
+
+/* DOTS */
+
+.bg {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  overflow: hidden;
+
+}
+
+.bg__dot {
+  position: absolute;
+  background: linear-gradient(
+      to left,
+      var(--color-bg-red),
+      rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.bg__dot:nth-child(1) {
+  animation: move1 15s infinite linear both;
+  bottom: 95vh;
+  height: 15vh;
+  width: 15vh;
+}
+
+.bg__dot:nth-child(2) {
+  animation: move2 20s infinite linear both;
+  height: 20vh;
+  top: 95%;
+  width: 20vh;
 }
