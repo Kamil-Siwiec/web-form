@@ -1,5 +1,17 @@
+:root {
+  --color-bg-red: #670d10;
+  --color-bg-blue: #092756;
+  --color-green: #a2ccb6;
+  --color-light-peach: #ffecd9;
+  --color-peach: #ee786e;
+  --color-sand: #fceeb5;
+  --color-white: #fff;
+}
+
 html {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 *,
