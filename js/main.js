@@ -19,7 +19,7 @@ headingTl
   .from(
     ".heading h1",
     {
-      y: "100%",
+      y: "150%",
       duration: 0.8,
       ease: "expo.out"
     },
