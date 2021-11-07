@@ -10,7 +10,7 @@ See live view [web-form](https://kamil-siwiec.github.io/web-form/)
 - CSS3, Flexbox,
 - JavaScript
 
-## Scripts
+## Scripts:
 ```javascript
 const headingTl = gsap.timeline ({
   repeat: -1,
