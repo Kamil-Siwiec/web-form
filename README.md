@@ -6,11 +6,11 @@ My simple web-form page.
 See live view [web-form](https://kamil-siwiec.github.io/web-form/)
 
 ## Technologies & tools used:
-- HTML5, BEM,
-- CSS3, Flexbox,
+- HTML5, BEM Methodology,
+- CSS3, CSS Flexbox,
 - JavaScript
 
-## Scripts:
+## Code:
 ```javascript
 const headingTl = gsap.timeline ({
   repeat: -1,
